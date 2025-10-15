@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misty's Personal Webpage</title>
+</head>
+<body>
+    <!-- Navigation Bar-->
+     <nav>
+        <a href="index.html">About Me</a> |
+        <a href="contact.html">Contact Me</a> |
+    </nav>
+
+    <h1>Contact Me</h1>
+    <p>If you'd like to get in touch with me, please feel free to fill out the form below!</p>
+
+    <form method="'get' actions='index.html'>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required placeholder="Write your message here..."></textarea><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Female</label><br>
+
+        <input type="radio" id="none" name="gender" value="none">
+        <label for="male">Prefer not to say</label><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
